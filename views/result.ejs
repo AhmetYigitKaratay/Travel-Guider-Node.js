@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Where Should I Go?</title>
+    <link rel="stylesheet" href="result.css"> 
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter&family=JetBrains+Mono&family=Kaushan+Script&display=swap');
+      </style>
+    <script src="https://kit.fontawesome.com/c93e71126e.js" crossorigin="anonymous"></script>
+</head>
+
+
+<body>
+    <header>
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="index.html">
+                     <img src="Logo.png" alt="Logo" class="Logo"/>   
+                    </a>
+                </div>
+                <div class="name">
+                    <p>Where Should I Go?</p>
+                </div>
+                <div class="slogan">
+                    <p>Many of cities to travel all around the world.
+                      <br>  One simple advisor. <br>
+                    </p>                                   
+                </div>
+                                    
+            </div>
+        </div>
+        </div>
+    
+    
+    </header>
+  
+    <h1>Cities that you can visit:</h1>
+    
+    <ul id="city-list">
+        <% cities.forEach(function(city) { %>
+            <li><%= city %></li>
+        <% }); %>
+    </ul>
+
+
+
+</body>
+</html>

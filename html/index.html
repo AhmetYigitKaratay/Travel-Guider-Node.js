@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Where Should I Go?</title>
+    <link rel="stylesheet" href="indexStyle.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter&family=JetBrains+Mono&family=Kaushan+Script&display=swap');
+    </style>
+    <script src="https://kit.fontawesome.com/c93e71126e.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="#">
+                        <img src="logo.png" alt="Logo" class="Logo" />
+                    </a>
+                </div>
+                <div class="name">
+                    <p>Where Should I Go?</p>
+                </div>
+                <div class="slogan">
+                    <p>Many of cities to travel all around the world.
+                        <br> One simple advisor. <br>
+                    </p>
+                </div>
+            </div>
+        </div>
+        </div>
+    </header>
+
+    <div class="sidebar">
+        <div class="h2">Menu</div>
+
+        <script>
+            function validateForm() {
+                var continent = document.getElementById("continent").value;
+                if (continent === "") {
+                    alert("Please select a continent before searching.");
+                    return false;
+                }
+                return true;
+            }
+        </script>
+
+        <form action="/search" method="post" onsubmit="return validateForm()">
+            <label for="continent">Select a Continent: </label>
+            <select name="continent" id="continent" required>
+                </optgroup>
+                <optgroup label="Continent" required>
+                    <option value=""></option>
+                    <option value="Asia">Asia</option>
+                    <option value="Europe">Europe</option>
+                    <option value="Africa">Africa</option>
+                    <option value="North America">North America</option>
+                    <option value="South America">South America</option>
+                    <option value="Australia">Australia</option>
+
+
+                </optgroup>
+            </select>
+            <label for="visa">Select Visa Requirement:</label>
+            <select name="visa" id="visa">
+
+                <optgroup label="Visa Requirement">
+                    <option value=""></option>
+                    <option value="0">No Need</option>
+                    <option value="1">Required</option>
+                </optgroup>
+
+
+            </select>
+            <label for="budget">Select Budget:</label>
+            <select name="budget" id="budget">
+
+                <optgroup label="Budget">
+                    <option value=""></option>
+                    <option value="1">2000-10000</option>
+                    <option value="2">10000-15000</option>
+                    <option value="3">15000-25000</option>
+                    <option value="4">25000-40000</option>
+                </optgroup>
+            </select>
+            <label for="vacationtype">Select Vacation Type:</label>
+            <select name="type" id="type">
+
+                <optgroup label="Vacation Type">
+                    <option value=""></option>
+                    <option value="1">Romantic</option>
+                    <option value="2">Urban</option>
+                    <option value="3">Night Life</option>
+                    <option value="4">Nature</option>
+                    <option value="5">Beach</option>
+                    <option value="6">Historic</option>
+                </optgroup>
+            </select>
+            <label for="season">Select Date</label>
+            <select name="season" id="season">
+
+                <optgroup label="Season">
+                    <option value=""></option>
+                    <option value="1">Jan-Mar</option>
+                    <option value="2">Apr-Jun</option>
+                    <option value="3">Jul-Sep</option>
+                    <option value="4">Oct-Dec</option>
+                </optgroup>
+            </select>
+
+
+            <button type="submit">Search</button>
+        </form>
+    </div>
+    <div class="centered-text">
+        <h1>Cities which you want to explore...</h1>
+    </div>
+
+    <div class="buttons">
+        <div class="oneline">
+            <a class="btn btn-1">Amsterdam</a>
+            <a class="btn btn-2">Bangkok</a>
+            <a class="btn btn-3">Barcelona</a>
+            <a class="btn btn-4">Berlin</a>
+            <a class="btn btn-6">Cape Town</a>
+            <a class="btn btn-7">Dubai</a>
+            <a class="btn btn-8">Hong Kong</a>
+            <a class="btn btn-9">Istanbul</a>
+            <a class="btn btn-10">Kahire</a>
+            <a class="btn btn-11">London</a>
+            <a class="btn btn-12">Los Angeles</a>
+            <a class="btn btn-13">Miami</a>
+            <a class="btn btn-14">Moscow</a>
+            <a class="btn btn-15">New York</a>
+            <a class="btn btn-16">Paris</a>
+            <a class="btn btn-17">Rome</a>
+            <a class="btn btn-18">Sao Paulo</a>
+            <a class="btn btn-19">Seul</a>
+            <a class="btn btn-20">Sydney</a>
+            <a class="btn btn-21">Tokyo</a>
+        </div>
+    </div>
+
+</body>
+
+</html>

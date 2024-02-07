@@ -1,4 +1,4 @@
-# Travel Guider App
+no# Travel Guider App
 
 > I made this project to make practice about node.js and HTML/CSS. I fetch data from API that I build with mySQL.
 
@@ -23,5 +23,6 @@ You can test the app on local server right after cloning in your own computer.
 - JavaScript
 
 ## Images
-![Images](https://github.com/AhmetYigitKaratay/Travel-Guider-Node.js/assets/92593526/46bd5c91-55b5-498e-8125-cff52aa4454f)
-![image](https://github.com/AhmetYigitKaratay/Travel-Guider-Node.js/assets/92593526/da433539-3aab-4c43-9023-76f5f7c99185)
+![image](https://github.com/AhmetYigitKaratay/Travel-Guider-Node.js/assets/92593526/c3f40434-a9c2-4edf-92c4-d5d86fe52be7)
+![image](https://github.com/AhmetYigitKaratay/Travel-Guider-Node.js/assets/92593526/c108c051-9cd0-405f-9a19-6f9d764cb765)
+
